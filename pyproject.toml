@@ -1,0 +1,10 @@
+[project]
+name = "football-prediction-app"
+version = "0.1.0"
+description = "Football match forecasting from historical results"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "streamlit>=1.66.0",
+]
