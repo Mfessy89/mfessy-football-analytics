@@ -23,7 +23,7 @@ from model import (
 
 APP_DIR = Path(__file__).resolve().parent
 SAMPLE_DATA_PATH = APP_DIR / "data" / "epl_2024_25.csv"
-NOTEBOOK_PATH = APP_DIR.parent / "notebooks" / "Football_prediction.ipynb"
+NOTEBOOK_PATH = APP_DIR.parent / "Football_prediction.ipynb"
 DATA_SOURCE_URL = "https://www.football-data.co.uk/englandm.php"
 
 st.set_page_config(page_title="Football Match Forecast", page_icon=None, layout="wide")
