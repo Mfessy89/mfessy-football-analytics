@@ -9,8 +9,7 @@ chronological backtest.
 
 From the project root:
 
-```bash
-streamlit run python_app/app.py --server.port 5000 --server.address 0.0.0.0
+```streamlit run app.py
 ```
 
 The app starts with `data/epl_2024_25.csv`, a bundled 2024–25 English Premier
@@ -25,7 +24,7 @@ Fixtures with duplicate rows, invalid dates, blank teams, unrecognized team name
 or insufficient earlier home/away history are reported and are not given invented
 predictions. The batch forecast can be downloaded as a CSV.
 
-The original notebook is kept at `notebooks/Football_prediction.ipynb`.
+The original notebook is kept at `Football_prediction.ipynb`.
 
 ## Model limitations
 
