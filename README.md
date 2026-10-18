@@ -37,6 +37,5 @@ Predictions and backtest results are estimates, not guarantees.
 
 Run the model and CSV validation tests from the Python app directory:
 
-```bash
-uv run --project . python -m unittest discover -s python_app -p 'test_*.py'
+```python -m unittest discover -s . -p "test_*.py"
 ```
